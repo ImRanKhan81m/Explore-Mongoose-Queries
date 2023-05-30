@@ -3,6 +3,7 @@ import cors from 'cors'
 
 const app: Application = express()
 
+
 import userRoutes  from '../src/app/modules/user/user.route'
 
 const corsFonfig = {
