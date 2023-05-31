@@ -16,7 +16,6 @@ app.options('*', cors(corsFonfig));
 app.use(express.urlencoded({ extended: true }))
 
 
-
 // app.get('/api/v1/user', userRoutes)
 app.use('/api/v1/user', userRoutes)
 
